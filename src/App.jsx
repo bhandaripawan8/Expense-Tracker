@@ -1,12 +1,17 @@
 
 import './App.css'
+import {Header} from './Components/Header.jsx'
+import {Balance} from './Components/Balance.jsx'
 
 function App() {
  
 
   return (
     <>
-      <h2>Welcome to expense tracker setup</h2>
+     <Header/>
+     <div className="container">
+      <Balance/>
+     </div>
     </>
   )
 }
